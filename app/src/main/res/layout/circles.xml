@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="O"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="A"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="51"
+        app:layout_constraintCircleRadius="125dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="B"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="102"
+        app:layout_constraintCircleRadius="125dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="C"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="153"
+        app:layout_constraintCircleRadius="125dp"
+        />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="D"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="204"
+        app:layout_constraintCircleRadius="125dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="E"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="255"
+        app:layout_constraintCircleRadius="125dp"/>
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="F"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="306"
+        app:layout_constraintCircleRadius="125dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="G"
+        app:layout_constraintCircle="@+id/button"
+        app:layout_constraintCircleAngle="357"
+        app:layout_constraintCircleRadius="125dp" />
+</android.support.constraint.ConstraintLayout>
